@@ -3,13 +3,13 @@
     "displayName": "Red",
     "description": "Red language for VS Code extension",
     "icon": "images/red.png",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "red-auto",
     "engines": {
         "vscode": "^0.10.10"
     },
     "categories": [
-        "Languages","Snippets"
+        "Languages","Snippets","Themes"
     ],
     "contributes": {
         "languages": [{
@@ -27,6 +27,13 @@
 			{
 				"language": "red",
 				"path": "./snippets/red.json"
+			}
+		],
+		"themes": [
+			{
+				"label": "Red Language Theme 1",
+				"uiTheme": "vs",
+				"path": "./themes/RedLangTheme1.tmTheme"
 			}
 		]
     }
