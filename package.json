@@ -1,0 +1,27 @@
+{
+    "name": "red",
+    "displayName": "Red",
+    "description": "Red language for VS Code extension",
+    "icon": "images/red.png",
+    "version": "0.0.1",
+    "publisher": "red-auto",
+    "engines": {
+        "vscode": "^0.10.10"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "red",
+            "aliases": ["Red", "red"],
+            "extensions": [".red"],
+            "configuration": "./languages/red.configuration.json"
+        }],
+        "grammars": [{
+            "language": "red",
+            "scopeName": "source.red",
+            "path": "./grammars/red.tmLanguage"
+        }]
+    }
+}
